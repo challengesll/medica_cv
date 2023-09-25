@@ -9,7 +9,7 @@ medical_rec
 '''
 
 def get_token():
-    url = "your token. you can get from baidu AI website"
+    url = ""  # baidu AI get
 
     payload = ""
     headers = {
@@ -33,7 +33,7 @@ def medical_recog():
     img = base64.b64encode(f.read())
 
     params = {"image":img}
-    access_token = '24.5d26f5fd473b3097c210c65e2b9cdf20.2592000.1693722662.282335-37159795'
+    access_token = 'your token'    # baidu AI get
     request_url = request_url + "?access_token=" + access_token
     headers = {'content-type': 'application/x-www-form-urlencoded'}
     response = requests.post(request_url, data=params, headers=headers)
