@@ -9,7 +9,7 @@ medical_rec
 '''
 
 def get_token():
-    url = "https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=IvPVhGasqvqF6gvFx1afUEaL&client_secret=SNdKzbj6fLW7KvBxKpUCcOLRFLKkBg7C"
+    url = "your token. you can get from baidu AI website"
 
     payload = ""
     headers = {
